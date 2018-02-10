@@ -36,14 +36,14 @@
 					<div class="right">
 						<nav>
 							<ul>
-								<li><a href="computadoras.html">Inicio</a></li>
+								<li><a href="index.html">Inicio</a></li>
 								<li class="current"><a href="productos.php">Productos</a></li>
 								<li><a href="services.html">Servicios</a></li>
 								<li><a href="mayorista.html">Ser Mayorista</a></li>					
 								<li><a href="contacts.html">Ubicación</a></li>
 							</ul>
 						</nav>
-						<h1><a href="productos.html"><span>Andy</span>Comp</a></h1>
+						<h1><a href="productos.php"><span>Andy</span>Comp</a></h1>
 					</div>
 				</div>
 			</div>
