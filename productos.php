@@ -23,7 +23,7 @@
 <script type="text/javascript" src="js/html5.js"></script>
 <![endif]-->
 </head>
-<body id="page5">
+<body id="page2">
 <div class="tail-top1">
 <!-- header -->
 	<header>
