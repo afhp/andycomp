@@ -168,13 +168,13 @@ aside .line-ver4 {background-image:url(../images/line-ver.gif);background-repeat
 #contacts-form textarea {width:549px;height:293px;padding:3px 3px;overflow:auto;margin-bottom:17px}
 #contacts-form a {margin-left:6px}
 /* slider */
-#faded {width:990px;height:350px;margin:7px 0;background:url(../images/slider-bg.jpg) no-repeat 25px 5px}
+#faded {width:990px;height:350px;margin:7px 0;background:url(../images/slider-bg.gif) no-repeat 25px 5px}
 #faded ul {list-style:none;padding:0;margin:0}
 #faded ul.pagination {list-style:none;padding:0;margin:0;width:246px;height:350px;background:url(../images/pagination-bg.jpg) no-repeat left top}
 #faded ul.pagination li {padding:5px 0 0 5px;margin-bottom:-5px}
 #faded ul.pagination li a {width:270px;height:85px;background-repeat:no-repeat;background-position:left -85px;background-image:url(../images/thumb-sprite.png);text-decoration:none;display:block;color:#464646}
 #faded ul.pagination li.current a {background-position:left top;color:#fff}
-#faded ul.pagination li a span {font-size:30px;line-height:1.2em;display:block;padding:14px 0 0 0}
+#faded ul.pagination li a span {font-weight:bold;font-size:50px;line-height:1.2em;display:block;padding:14px 0 0 0}
 #faded ul.pagination li a small {display:inline-block;color:#428301;background-repeat:no-repeat;background-position:right -80px;background-image:url(../images/arrows.gif);padding:0 17px 0 0}
 #faded ul.pagination li a span,
 #faded ul.pagination li a small {padding-left:40px}
