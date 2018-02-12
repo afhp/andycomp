@@ -47,19 +47,12 @@
 					</div>
 				</div>
 			</div>
-			<span class="top-info"><a>24/7 Ventas  &amp; Cotizaciones 0998627272  &nbsp; l  &nbsp; </a><a href="#">WhatsApp</a> &nbsp; l &nbsp; <a href="#">Facebook</a></span>
-			<form action="" id="login-form">
+			<span class="top-info"><a>24/7 Ventas  &amp; Cotizaciones 0998627272  &nbsp; l  &nbsp; </a><a href="http://web.whatsapp.com">WhatsApp</a> &nbsp; l &nbsp; <a href="http://www.facebook.com">Facebook</a></span>
+			 <form action="" id="login-form">
 				<fieldset>
-					<span class="text">
-						<input type="text" value="Usuario" onFocus="if(this.value=='Usuario'){this.value=''}" onBlur="if(this.value==''){this.value='Usuario'}">
-					</span>
-					<span class="text">
-						<input type="password" value="Password" onFocus="if(this.value=='Password'){this.value=''}" onBlur="if(this.value==''){this.value='Password'}">
-					</span>
-					<a href="#" class="login" onClick="document.getElementById('login-form').submit()"><span><span>Iniciar sesión</span></span></a>
-					<span class="links"><a href="#">¿Olvidó su contraseña?</a><br/><a href="register.html">Registrarse</a></span>
+				<a>Número de Visitantes:  </a><a href="http://andycomp.technology" target="_blank"><img src="http://www.reliablecounter.com/count.php?page=andycomp.technology&digit=style/plain/1/&reloads=0" alt="" title="" border="0"></a><br />
 				</fieldset>
-			</form>	
+			</form> 
 		</div>
 	</header>
 	<!-- content -->
