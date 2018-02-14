@@ -180,7 +180,7 @@ aside .line-ver4 {background-image:url(../images/line-ver.gif);background-repeat
 #faded ul.pagination li a small {padding-left:40px}
 #faded ul.pagination li.current a small {color:#82b704;background-position:right 5px}
 #faded ul.slides li {position:relative;width:100%}
-#faded ul.slides li img {position:absolute;top:71px;right:35px}
+#faded ul.slides li img {position:absolute;top:21px;right:35px}
 #faded ul.slides li a {color:#fff;text-transform:uppercase;text-decoration:none;position:absolute;right:43px;top:217px;font-size:18px;line-height:1.2em;padding-left:8px;background:url(../images/button-left.png) no-repeat left top;letter-spacing:-1px}
 #faded ul.slides li a:hover {color:#8ab805}
 #faded ul.slides li a span {display:block;padding-right:8px;background:url(../images/button-right.png) no-repeat right top}
