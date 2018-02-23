@@ -2,7 +2,8 @@
 article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block}
 mark, rp, rt, ruby, summary, time {display:inline}
 /* Global properties */
-body {background:#fff;font-family:Arial, Helvetica, sans-serif;font-size:100%;line-height:1em;color:#464646}
+/*texto del cuerpo*/
+body {background:#fff;font-family:Arial, Helvetica, sans-serif;font-size:100%;line-height:1em;color:#00f;font-weight:bold}
 html {min-width:980px}
 html, body {height:100%}
 /* Global Structure = */
@@ -60,7 +61,8 @@ fieldset {border:0}
 .img-box {width:100%;overflow:hidden;padding-bottom:12px;line-height:1.667em}
 .img-box img {float:left;margin:0 20px 0 -1px}
 .extra-wrap {overflow:hidden}
-p {margin-bottom:10px;line-height:1.667em}
+/*cambiar el color del parrafo*/
+p {margin-bottom:30px;line-height:1.667em}
 .p0 {margin:0}
 .p1 {margin-bottom:18px}
 .price {text-align:center;display:block;font-size:30px;line-height:1.2em;letter-spacing:-1px;padding-bottom:10px}
@@ -71,13 +73,15 @@ p {margin-bottom:10px;line-height:1.667em}
 address {font-style:normal;line-height:1.667em;display:block;padding-bottom:20px}
 address b {float:left;width:73px}
 /* txt, links, lines, titles */
-a {color:#428301;outline:none}
+/*enlaces colores*/
+a {color:#000;outline:none}
 a:hover {text-decoration:none}
 h1 {padding:17px 0 0 44px;font-size:36px;line-height:1.2em}
 h1 a {text-decoration:none}
-h2 {color:#464646;font-size:30px;line-height:1.2em;margin-bottom:15px;letter-spacing:-1px}
+h2 {color:#f00;font-size:35px;line-height:1.2em;margin-bottom:15px;letter-spacing:-1px}
 h2.extra {padding:30px 0 0 43px}
-h3 {font-size:26px;line-height:1.2em;color:#fff;margin-bottom:30px}
+/*colo del cajon de ofertas*/
+h3 {font-size:26px;line-height:1.2em;color:#00f;margin-bottom:30px}
 h4 {font-size:20px;line-height:1.2em;color:#fff;margin-bottom:27px;letter-spacing:-1px}
 h4.extra {margin-bottom:12px}
 h5 {font-size:1em;line-height:1.667em;margin-bottom:10px}
@@ -102,7 +106,7 @@ h5 {font-size:1em;line-height:1.667em;margin-bottom:10px}
 .line-ver3 {background-image:url(../images/line-ver1.gif);background-repeat:repeat-y;background-position:617px 0;width:100%}
 .line-ver4 {background-image:url(../images/line-ver1.gif);background-repeat:repeat-y;background-position:777px 0;width:100%}
 /* boxes */
-.header-box {width:100%;background:url(../images/header-box-tail.gif) repeat-x left top;position:relative;top:50px}
+.header-box {width:100%;background:url(../images/header-box-tail.gif) repeat-x left top;position:relative;top:60px}
 .header-box .left {background:url(../images/header-box-left.gif) no-repeat left top}
 .header-box .right {background:url(../images/header-box-right.gif) no-repeat right top;height:81px}
 .box {background:url(../images/box-tail.gif) repeat-x left top #fff;width:100%}
@@ -124,6 +128,7 @@ h5 {font-size:1em;line-height:1.667em;margin-bottom:10px}
 header nav {float:right;padding:13px 24px 0 0}
 header nav li {float:left;font-size:20px;line-height:3em;text-transform:uppercase;padding-left:21px;margin-left:19px;background:url(../images/divider.gif) repeat-y left top}
 header nav li:first-child {background:none;padding-left:0;margin-left:0}
+/* barra de navegacion */
 header nav li a {color:#fff;text-decoration:none}
 header nav li.current a, header nav li a:hover {color:#82b704}
 header .top-info {position:absolute;left:45px;top:15px}
@@ -142,10 +147,12 @@ aside .line-ver2 {background-image:url(../images/line-ver.gif);background-repeat
 aside .line-ver3 {background-image:url(../images/line-ver.gif);background-repeat:repeat-y;background-position:547px 0;width:100%}
 aside .line-ver4 {background-image:url(../images/line-ver.gif);background-repeat:repeat-y;background-position:742px 0;width:100%}
 #login-form fieldset {position:absolute;right:45px;top:15px}
+/*color de login*/
 #login-form span.text {float:left;width:104px;height:23px;margin-left:5px;background:url(../images/input-bg1.gif) no-repeat left top}
-#login-form input {border:none;background:none;padding:4px 10px;vertical-align:top;color:#9b9b9b;width:84px}
+#login-form input {border:none;background:none;padding:4px 10px;vertical-align:top;color:#82b704;width:84px}
 *+ html #login-form input {padding-top:3px}
 .ic, .ic a {border:0;float:right;background:#fff;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
+/*iniciar sesion*/
 #login-form a.login {color:#fff;text-decoration:none;text-shadow:1px 1px #295c01;float:left;background:url(../images/button-tail1.gif) repeat-x left top;position:relative;top:-2px;margin-left:3px}
 #login-form a.login span {display:block;background:url(../images/button-left1.gif) no-repeat left top}
 #login-form a.login span span {padding:5px 22px 6px 22px;background:url(../images/button-right1.gif) no-repeat right top}
@@ -163,7 +170,8 @@ aside .line-ver4 {background-image:url(../images/line-ver.gif);background-repeat
 #contacts-form .field.text {height:30px}
 #contacts-form label {float:left;width:94px}
 #contacts-form input,
-#contacts-form textarea { border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;behavior:url(js/PIE.htc);position:relative; border:1px solid #cbcbcb; background-color:#fff;float:left; color:#464646}
+/* color de relleno de formularios*/
+#contacts-form textarea { border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;behavior:url(js/PIE.htc);position:relative; border:2px solid #cbcbcb; background-color:#fff;float:left; color:#464646}
 #contacts-form input {width:300px;padding:3px 3px}
 #contacts-form textarea {width:549px;height:293px;padding:3px 3px;overflow:auto;margin-bottom:17px}
 #contacts-form a {margin-left:6px}
@@ -180,7 +188,7 @@ aside .line-ver4 {background-image:url(../images/line-ver.gif);background-repeat
 #faded ul.pagination li a small {padding-left:40px}
 #faded ul.pagination li.current a small {color:#82b704;background-position:right 5px}
 #faded ul.slides li {position:relative;width:100%}
-#faded ul.slides li img {position:absolute;top:5px;right:50px}
+#faded ul.slides li img {position:absolute;top:5px;right:65px}
 #faded ul.slides li a {color:#fff;text-transform:uppercase;text-decoration:none;position:absolute;right:43px;top:257px;font-size:18px;line-height:1.2em;padding-left:8px;background:url(../images/button-left.png) no-repeat left top;letter-spacing:-1px}
 #faded ul.slides li a:hover {color:#8ab805}
 #faded ul.slides li a span {display:block;padding-right:8px;background:url(../images/button-right.png) no-repeat right top}
