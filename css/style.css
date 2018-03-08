@@ -3,15 +3,15 @@ article, aside, audio, canvas, command, datalist, details, embed, figcaption, fi
 mark, rp, rt, ruby, summary, time {display:inline}
 /* Global properties */
 /*texto del cuerpo*/
-body {background:#fff;font-family:Arial, Helvetica, sans-serif;font-size:100%;line-height:1em;color:#00f;font-weight:bold}
+body {background:url(../images/fondo7.jpg);font-family:Arial, Helvetica, sans-serif;font-size:100%;line-height:1em;color:#00f;font-weight:bold}
 html {min-width:980px}
 html, body {height:100%}
 /* Global Structure = */
-.container {margin:0 auto;width:1050px;font-size:.95em}
+.container {margin:0 auto;width:1024px;font-size:.95em}
 /* Header */
 header .container {height:131px;overflow:hidden;position:relative}
 /* Sidebar */
-aside {background:url(../images/aside-tail.gif) repeat-x left top #131313;min-width:980px}
+aside {background:url(../images/fondo10.jpg) repeat-x left top #131313;min-width:980px}
 /* Footer */
 footer .container {text-align:center;line-height:1.667em;padding:26px 0}
 /* Left & Right alignment */
@@ -23,10 +23,10 @@ footer .container {text-align:center;line-height:1.667em;padding:26px 0}
 .aligncenter {text-align:center}
 .wrapper {width:100%;overflow:hidden}
 .wrap {width:100%}
-/* tailings */
-.tail-top, .tail-top1, .tail-top2, .tail-top3 {background-repeat:repeat-x;background-color:#f2f2f2;background-position:left top;min-width:980px}
-.tail-top {background-image:url(../images/tail-top.gif)}
-.tail-top1 {background-image:url(../images/tail-top1.gif)}
+/* tailings  color de FONDOS DE LA PAGINA del body*/
+.tail-top, .tail-top1, .tail-top2, .tail-top3 {background-repeat:repeat-x;background-color:#f2f2f2;background-position:left bot;main-width:980px}
+.tail-top {background-image:url(../images/fondo11.jpg)}
+.tail-top1 {background-image:url(../images/fondo7.jpg)}
 .tail-top2 {background-image:url(../images/tail-top2.gif)}
 .tail-top3 {background-image:url(../images/tail-top3.gif)}
 /* form defaults */
@@ -74,7 +74,7 @@ address {font-style:normal;line-height:1.667em;display:block;padding-bottom:20px
 address b {float:left;width:73px}
 /* txt, links, lines, titles */
 /*enlaces colores*/
-a {color:#000;outline:none}
+a {color:#000099;outline:none}
 a:hover {text-decoration:none}
 h1 {padding:17px 0 0 44px;font-size:36px;line-height:1.2em}
 h1 a {text-decoration:none}
@@ -106,15 +106,16 @@ h5 {font-size:1em;line-height:1.667em;margin-bottom:10px}
 .line-ver3 {background-image:url(../images/line-ver1.gif);background-repeat:repeat-y;background-position:617px 0;width:100%}
 .line-ver4 {background-image:url(../images/line-ver1.gif);background-repeat:repeat-y;background-position:777px 0;width:100%}
 /* boxes */
-.header-box {width:100%;background:url(../images/header-box-tail.gif) repeat-x left top;position:relative;top:60px}
+/* fondos de inicio productos servicios, etc  tambien estan los cuadros verdes que no se podian editar*/
+.header-box {width:100%;background:url(../images/header-box-tail.gif) repeat-x left top;position:relative;top:50px}
 .header-box .left {background:url(../images/header-box-left.gif) no-repeat left top}
 .header-box .right {background:url(../images/header-box-right.gif) no-repeat right top;height:81px}
-.box {background:url(../images/box-tail.gif) repeat-x left top #fff;width:100%}
-.box .border-bot {background:url(../images/border-bot.gif) repeat-x left bottom}
+.box {background:url(../images/header-box-tail.gif) repeat-x left top #fff;width:100%}
+.box .border-bot {background:url(../images/border-bot0.gif) repeat-x left bottom}
 .box .border-left {background:url(../images/border-left.gif) repeat-y left top}
 .box .border-right {background:url(../images/border-right.gif) repeat-y right top}
-.box .left-top-corner {background:url(../images/left-top-corner.gif) no-repeat left top}
-.box .right-top-corner {background:url(../images/right-top-corner.gif) no-repeat right top}
+.box .left-top-corner {background:url(../images/header-box-left.gif) no-repeat left top}
+.box .right-top-corner {background:url(../images/header-box-right.gif) no-repeat right top}
 .box .left-top-corner1 {background:url(../images/left-top-corner1.gif) no-repeat left top}
 .box .right-top-corner1 {background:url(../images/right-top-corner1.gif) no-repeat right top}
 .box .left-bot-corner {background:url(../images/left-bot-corner.gif) no-repeat left bottom;width:100%}
@@ -125,12 +126,12 @@ h5 {font-size:1em;line-height:1.667em;margin-bottom:10px}
 .box .border-top {background-image:url(../images/box-tail2.gif);background-repeat:repeat-x;width:100%}
 .box .inner1 {padding:7px 0 0 0}
 /* header */
-header nav {float:right;padding:13px 24px 0 0}
-header nav li {float:left;font-size:20px;line-height:3em;text-transform:uppercase;padding-left:21px;margin-left:19px;background:url(../images/divider.gif) repeat-y left top}
+header nav {float:left;padding:6px 24px 0 45px}
+header nav li {float:left;font-size:23px;line-height:3em;text-transform:uppercase;padding-left:41px;margin-left:19px;background:url(../images/divider.gif) repeat-y left top}
 header nav li:first-child {background:none;padding-left:0;margin-left:0}
 /* barra de navegacion */
 header nav li a {color:#fff;text-decoration:none}
-header nav li.current a, header nav li a:hover {color:#82b704}
+header nav li.current a, header nav li a:hover {color:#00f}
 header .top-info {position:absolute;left:45px;top:15px}
 /* content */
 #content .inside {padding:0 2px}
